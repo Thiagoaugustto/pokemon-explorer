@@ -35,7 +35,7 @@ Ensure you have **Node.js 18+** installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Thiagoaugustto/pokemon-explorer.git](https://github.com/Thiagoaugustto/pokemon-explorer.git)
+   git clone https://github.com/Thiagoaugustto/pokemon-explorer.git
    cd pokemon-explorer
 
 2. Install dependencies:
