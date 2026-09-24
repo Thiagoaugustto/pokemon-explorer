@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Pokémon Explorer
 
-## Getting Started
+A modern, responsive Next.js application for browsing and collecting Pokémon, built with TypeScript, App Router, TanStack Query, Zustand, and Styled Components.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Multi-page Routing:** Built using Next.js App Router (`/`, `/collection`, `/pokemon/[name]`).
+- **Shiny Sprite Rules:** Automatically displays the Shiny variant for Grass-type Pokémon.
+- **Collection Management:** Catch and release Pokémon with timestamps using Zustand.
+- **Optimized Data Fetching:** Efficient caching and state management via TanStack Query.
+- **Clean UI & Design:** Left-aligned card layout, official Pokémon type color tags, and responsive design.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **State Management:** [Zustand](https://github.com/pmndrs/zustand)
+- **Data Fetching:** [TanStack Query](https://tanstack.com/query) (React Query)
+- **Styling:** [Styled Components](https://styled-components.com/)
+- **API:** [PokéAPI](https://pokeapi.co/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+Ensure you have **Node.js 18+** installed on your machine.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Thiagoaugustto/pokemon-explorer.git](https://github.com/Thiagoaugustto/pokemon-explorer.git)
+   cd pokemon-explorer
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
+
+4. Open http://localhost:3000 in your browser to view the application.
+
+---
+
+## 📜 Available Scripts
+
+- `npm run dev` - Starts the development server.
+- `npm run build` - Builds the application for production.
+- `npm run start` - Starts the production server.
+- `npm run lint` - Runs ESLint to check for code issues.
